@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-
-cd /opt/bin
-sudo chgrp -R devops .
-sudo chmod 775 /opt/bin/tfgen
-
