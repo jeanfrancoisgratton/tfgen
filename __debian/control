@@ -1,0 +1,8 @@
+Package: tfgen
+Version: 1.00.00-0
+Architecture: amd64
+Maintainer: J.F.Gratton <jean-francois@famillegratton.net>
+Description: Terraform config generator
+Section: CI-CD
+Depends: terraform
+
