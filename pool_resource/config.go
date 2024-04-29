@@ -3,7 +3,7 @@
 // Original directory and filename : pool_resource.go
 // Original timestamp : 2024/04/27 15:14
 
-package tfgen
+package pool_resource
 
 // Pool :
 // https://registry.terraform.io/providers/dmacvicar/libvirt/latest/docs/resources/pool

@@ -16,17 +16,14 @@
 //
 //import (
 //	"fmt"
-//	"github.com/jeanfrancoisgratton/helperFunctions"
+//	"github.com/jeanfrancoisgratton/tfgen/pool_resource"
 //)
 //
 //func main() {
-//	var intVar int = -19
-//	var int32Var int32 = -65535
-//	var uint16Var uint16 = 55326
-//	var uint64Var uint64 = 12345678901
-//
-//	fmt.Println(helperFunctions.SI(intVar))
-//	fmt.Println(helperFunctions.SI(int32Var))
-//	fmt.Println(helperFunctions.SI(uint16Var))
-//	fmt.Println(helperFunctions.SI(uint64Var))
+//	pName, err := pool_resource.GetPoolName()
+//	if err != nil {
+//		err.Error()
+//	} else {
+//		fmt.Println(pName)
+//	}
 //}
