@@ -4,11 +4,13 @@
 
 package pool_resource
 
-import (
-	"github.com/jeanfrancoisgratton/customError"
-	"github.com/jeanfrancoisgratton/helperFunctions"
-)
+import "github.com/jeanfrancoisgratton/customError"
 
+func (p PoolResource) fetchResourceInfo() *customError.CustomError {
+	return nil
+}
+
+/*
 func GetPoolName() (string, *customError.CustomError) {
 	//ce := &customError.CustomError{}
 	// Call your function from the helperFunctions package
@@ -26,3 +28,4 @@ func GetPoolName() (string, *customError.CustomError) {
 
 	return poolname, nil
 }
+*/

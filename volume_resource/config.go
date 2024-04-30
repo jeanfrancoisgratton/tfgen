@@ -3,7 +3,7 @@
 // Original filename : volume_resource.go
 // Original timestamp : 2024/04/27 15:16
 
-package tfgen
+package volume_resource
 
 // Volume :
 // https://registry.terraform.io/providers/dmacvicar/libvirt/latest/docs/resources/volume
