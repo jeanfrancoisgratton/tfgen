@@ -39,10 +39,14 @@ func (v VolumeResource) fetchResourceInfo() *customError.CustomError {
 		v.BaseVolID = bvid
 	}
 	if bvn := helperFunctions.GetStringValFromPrompt("What is the base volume name ?"); bvn != "" {
-		v.BaseVolID = bvn
+		v.BaseVolName = bvn
 	}
 	if bvp := helperFunctions.GetStringValFromPrompt("What is the base volume pool ?"); bvp != "" {
-		v.BaseVolID = bvp
+		v.BaseVolPool = bvp
+	} else {
+		if v.Pool != "" {
+			v.BaseVolPool = v.Pool
+		}
 	}
 	return nil
 }
