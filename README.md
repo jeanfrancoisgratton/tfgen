@@ -25,8 +25,8 @@ Whatever the selected mode, the library will generate a TF file and store it at 
 ### Dependencies
 
 This package relies on some other packages I've written, on top of more other "mainstream" packages:
-- github.com/jeanfrancoisgratton/customErrors: customizable error messages; you could easily get rid of this if needed
-- github.com/jeanfrancoisgratton/helperFunctions: misc functions sprinkled across the package
+- https://github.com/jeanfrancoisgratton/customErrors: customizable error messages; you could easily get rid of this if needed
+- https://github.com/jeanfrancoisgratton/helperFunctions: misc functions sprinkled across the package
 
 ### Package layout
 

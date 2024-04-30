@@ -12,7 +12,7 @@ import (
 // This might seem a bit long-winded...
 // We check at each string prompt if the value is empty. If not, we assign the variable's value
 // To the appropriate struct member.
-// We could directly return the string prompt for vallue to the strict member, but since
+// We could directly return the string prompt for vallue to the struct member, but since
 // The struct has a lot of "omitempty", this is a sure way to keep the JSON as short as possible
 func (v VolumeResource) fetchResourceInfo() *customError.CustomError {
 	v.Name = helperFunctions.GetStringValFromPrompt("What is the volume name ? ")
